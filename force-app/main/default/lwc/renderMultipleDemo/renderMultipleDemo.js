@@ -1,6 +1,6 @@
 import { LightningElement } from 'lwc';
 import signinTemplate from 'signinTemplate.html'
-import signupTemplate from 'signupTemplate.html'
+import signupTemplate from  'signupTemplate.html'
 import defaultTemplate from 'renderMultipleDemo.html'
 export default class RenderMultipleDemo extends LightningElement {
     selected = null;

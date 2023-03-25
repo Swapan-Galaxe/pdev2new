@@ -1,0 +1,9 @@
+<template>
+    <lightning-layout class="slds-var-m-around_medium">
+        <lightning-layout-item class="wide">
+            You're in parent component.
+            <c-grand-child onnotify={handleNotify}></c-grand-child>
+            <span class="slds-text-color_success">{text}</span>
+        </lightning-layout-item>
+    </lightning-layout>
+</template>
